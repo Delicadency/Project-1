@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #4e4e4e;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  width: 90%;
+}
+.navbar_logo {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5.5px 25.5px 5.5px 0;
+  justify-self: flex-start;
+}
+.navbar_menu-item {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .navbar_menu {
+    color: #f1f1f1;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 46px;
+  }
+  .navbar_logo {
+    padding-right: 0;
+  }
+  .navbar_menu-item {
+    display: inline-block;
+    padding: 1.5px 0;
+  }
+}

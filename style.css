@@ -59,7 +59,14 @@ body {
   font-size: 36px;
   line-height: 42px;
   margin-bottom: 62px;
- 
+}
+.paragraph {
+    font-size: 18px;
+}
+.paragraph__landing-page {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 43px;
 }
 @media (min-width: 1200px) {
   .container {

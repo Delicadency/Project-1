@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 .header {
   width: 100%;
@@ -61,6 +62,7 @@ body {
   margin-bottom: 62px;
 }
 .paragraph {
+    
   font-size: 18px;
 }
 .paragraph__landing-page {
@@ -76,6 +78,12 @@ body {
   height: 41px;
   background-color: #c4c4c400;
   border: #ffffff solid 3px;
+  transition: background-color 1s linear; /* animacja nie działa, trzeba poprawić */
+}
+.section__specialists {
+  height: fit-content;
+  background-color: #f1f1f1;
+  margin: 51 0 68 0;
 }
 @media (min-width: 1200px) {
   .container {
@@ -99,4 +107,10 @@ body {
   .container__landing-page {
     width: 577px;
   }
+  /*   nie działa, trzeba to poprawić!!!
+    .button:hover {
+    background-color: white;
+    border: #ffffff solid 3px;
+   
+  } */
 }

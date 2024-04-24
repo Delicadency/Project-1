@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  line-height: 21px;
 }
 .header {
   width: 100%;
@@ -18,21 +19,31 @@ body {
 }
 .container {
   width: 90%;
+  display: flex;
 }
 .navbar__logo {
   color: white;
   font-size: 18px;
-  font-weight: 700;
   padding: 5.5px 25.5px 5.5px 0;
   justify-self: flex-start;
 }
 .navbar__menu-item {
   display: none;
 }
-.section {
+.flex--center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.flex--column {
+  display: flex;
+  flex-direction: column;
+}
+.bold {
+  font-weight: 700;
+}
+.text-justify {
+    text-align: justify;
 }
 .section__landing-page {
   position: relative;
@@ -52,18 +63,16 @@ body {
   width: 80%;
   height: fit-content;
 }
-.heading {
-  font-weight: 700;
-  color: white;
-}
 .heading__landing-page {
   font-size: 36px;
   line-height: 42px;
   margin-bottom: 62px;
+  color: white;
+  display: block;
 }
 .paragraph {
-    
   font-size: 18px;
+
 }
 .paragraph__landing-page {
   color: white;
@@ -83,7 +92,34 @@ body {
 .section__specialists {
   height: fit-content;
   background-color: #f1f1f1;
-  margin: 51 0 68 0;
+}
+.heading__specialists {
+  font-size: 36px;
+  color: #152d41;
+  margin: 60px 0 20px 0;
+  align-self: center;
+}
+.specialist {
+  flex-wrap: wrap;
+}
+.specialist:last-of-type {
+    margin-bottom: 60px;
+}
+.specialist__portrait {
+  width: 197px;
+  height: 197px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  margin: 60px;
+  align-self: center;
+  background-size: cover;
+  background-position: center;
+}
+.specialist__portrait--photo-x {
+  background-image: url(Images/portrait-x.jpeg);
+}
+.specialist__portrait--photo-y {
+  background-image: url(Images/portrait-y.jpeg);
 }
 @media (min-width: 1200px) {
   .container {

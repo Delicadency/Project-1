@@ -47,9 +47,9 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.205);
 }
-.container__landing-page{
-    width: 80%;
-    height: fit-content;
+.container__landing-page {
+  width: 80%;
+  height: fit-content;
 }
 .heading {
   font-weight: 700;
@@ -61,12 +61,21 @@ body {
   margin-bottom: 62px;
 }
 .paragraph {
-    font-size: 18px;
+  font-size: 18px;
 }
 .paragraph__landing-page {
-    color: white;
-    font-weight: 700;
-    margin-bottom: 43px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 43px;
+}
+.link {
+  text-decoration: none;
+}
+.button {
+  width: 164px;
+  height: 41px;
+  background-color: #c4c4c400;
+  border: #ffffff solid 3px;
 }
 @media (min-width: 1200px) {
   .container {
@@ -87,7 +96,7 @@ body {
     display: inline-block;
     padding: 1.5px 0;
   }
-  .container__landing-page{
+  .container__landing-page {
     width: 577px;
-}
+  }
 }

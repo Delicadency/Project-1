@@ -1,13 +1,12 @@
 :root {
---text-primary: #000000;
---text-secondary: #ffffff;
---background: #f1f1f1;
---primary: #405D78;
---secondary: #907D7D;
---accent: #E07A64;
---navbar: #4e4e4e;
+  --text-primary: #000000;
+  --text-secondary: #ffffff;
+  --background: #f1f1f1;
+  --primary: #405d78;
+  --secondary: #907d7d;
+  --accent: #e07a64;
+  --navbar: #4e4e4e;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
@@ -57,7 +56,7 @@ body {
   height: fit-content;
 }
 .text-justify {
-    text-align: justify;
+  text-align: justify;
 }
 .section__landing-page {
   position: relative;
@@ -85,12 +84,15 @@ body {
 }
 .paragraph {
   font-size: 18px;
-
 }
 .paragraph__landing-page {
   color: var(--text-secondary);
   font-weight: 700;
   margin-bottom: 43px;
+}
+.paragraph__offer {
+  font-size: 24px;
+  text-align: center;
 }
 .link {
   text-decoration: none;
@@ -115,7 +117,7 @@ body {
   flex-wrap: wrap;
 }
 .specialist:last-of-type {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 .specialist__portrait {
   width: 197px;
@@ -134,7 +136,19 @@ body {
   background-image: url(Images/portrait-y.jpeg);
 }
 .section__offer {
-background-color: var(--primary);
+  background-color: var(--primary);
+}
+.heading__offer {
+  color: var(--text-secondary);
+  font-size: 26px;
+  margin: 76px 0 20px 0;
+  align-self: center;
+}
+.box__offer {
+  width: 339px;
+  height: 331px;
+  margin-top: 36px;
+  background-color: var(--background);
 }
 @media (min-width: 1200px) {
   .container {

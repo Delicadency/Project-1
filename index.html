@@ -19,8 +19,8 @@
         <div class="navbar__logo bold">moja firma</div>
         <menu class="navbar__menu">
           <!-- dodaj później linki do odpowiednich ID na stronie -->
-          <li class="navbar__menu-item">o nas</li>
-          <li class="navbar__menu-item">oferta</li>
+          <li class="navbar__menu-item"><a class="link" href="#about">o nas</a></li>
+          <li class="navbar__menu-item"><a class="link" href="#offer">oferta</a></li>
           <li class="navbar__menu-item">kontakt</li>
         </menu>
       </nav>
@@ -44,7 +44,7 @@
         </div>
       </div>
     </section>
-    <section class="flex--center height--fit section__specialists">
+    <section id="about" class="flex--center height--fit section__specialists">
       <div class="container flex--column">
         <h2 class="bold heading__specialists">Nasi specjaliści</h2>
         <div class="flex--center specialist">
@@ -73,10 +73,11 @@
           </div>
       </div>
     </section>
-    <section class="flex--center height--fit section__offer">
+    <section id="offer" class="flex--center height--fit section__offer">
       <div class="container flex--column flex--center">
         <h2 class="bold heading__offer">Czym zajmuje się nasza firma?</h2>
         <div class="box__offer flex--center">
+          <div class="dot__offer"></div>
           <p class="paragraph__offer">Usługa 1<br><span class="paragraph">(nowość)</span></p>
         </div>
         <div class="box__offer flex--center">

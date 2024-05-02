@@ -6,6 +6,7 @@
   --secondary: #907d7d;
   --accent: #e07a64;
   --navbar: #4e4e4e;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Roboto", sans-serif;

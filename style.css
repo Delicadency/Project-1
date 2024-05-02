@@ -147,6 +147,7 @@ body {
   width: 339px;
   height: 331px;
   margin-top: 45px;
+  padding: 15px;
   position: relative;
   background-color: var(--background);
 }

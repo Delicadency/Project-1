@@ -174,14 +174,13 @@ body {
   height: 147px;
   color: var(--text-secondary);
   background-color: var(--navbar);
-  padding: 42px 0;
 }
 .icon {
   color: var(--text-secondary);
-  margin: 18px;
+  margin: 18px 18px 30px 18px;
 }
 .footer .container .paragraph {
-  margin: 15px;
+  margin: 38px 15px 15px 15px;
 }
 @media (min-width: 1200px) {
   .container {

@@ -104,7 +104,6 @@ body {
   height: 41px;
   background-color: #c4c4c400;
   border: #ffffff solid 3px;
-  transition: background-color 1s linear; /* animacja nie działa, trzeba poprawić */
 }
 .section__specialists {
   background-color: var(--background);
@@ -203,10 +202,5 @@ body {
   .container__landing-page {
     width: 577px;
   }
-  /*   nie działa, trzeba to poprawić!!!
-    .button:hover {
-    background-color: white;
-    border: #ffffff solid 3px;
-   
-  } */
+  
 }

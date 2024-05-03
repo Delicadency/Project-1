@@ -156,8 +156,11 @@ body {
   position: relative;
   background-color: var(--background);
 }
-.box__offer:last-of-type {
+.container__offer {
   margin-bottom: 45px;
+}
+.flex--flow {
+  flex-flow: column;
 }
 .dot__offer {
   width: 38px;
@@ -222,5 +225,20 @@ body {
   }
   .specialist:nth-of-type(odd) .paragraph {
     text-align: left;
+  }
+  .box__offer {
+    width: 198px;
+    height: 194px;
+    gap: 64px;
+  }
+  .heading__offer {
+    display: block;
+  }
+  .flex--flow {
+    flex-flow: row wrap;
+  }
+  .container__offer {
+    gap: 63px;
+    margin-bottom: 65px;
   }
 }

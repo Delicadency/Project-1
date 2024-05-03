@@ -180,10 +180,10 @@ body {
 }
 .icon {
   color: var(--text-secondary);
-  margin: 18px 18px 30px 18px;
+  margin: 15px 9px;
 }
 .footer .container .paragraph {
-  margin: 38px 15px 15px 15px;
+  margin: 15px;
 }
 @media (min-width: 1200px) {
   .container {
@@ -258,6 +258,6 @@ body {
     margin: 25px;
   }
   .icon {
-    margin: 25px 18px;
+    margin: 25px 9px;
   }
 }

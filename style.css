@@ -251,13 +251,13 @@ body {
   .footer .flex--direction {
     flex-direction: row;
   }
-.footer .flex--center {
-  justify-content: space-between;
-}
-.footer .container .paragraph {
-  margin: 25px;
-}
-.icon {
-  margin: 25px 18px;
-}
+  .footer .flex--center {
+    justify-content: space-between;
+  }
+  .footer .container .paragraph {
+    margin: 25px;
+  }
+  .icon {
+    margin: 25px 18px;
+  }
 }

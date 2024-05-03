@@ -106,7 +106,9 @@ body {
   width: 164px;
   height: 41px;
   background-color: #c4c4c400;
-  border: #ffffff solid 3px;
+  color: var(--text-secondary);
+  border: var(--text-secondary) solid 3px;
+  transition: background-color 1s ease-in, color 1s ease-in;
 }
 .section__specialists {
   background-color: var(--background);
@@ -206,6 +208,10 @@ body {
   }
   .container__landing-page {
     width: 577px;
+  }
+  .button:hover {
+    background-color: var(--text-secondary);
+    color: var(--text-primary);
   }
   .heading__specialists {
     align-self: flex-start;

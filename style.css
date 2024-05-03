@@ -241,6 +241,10 @@ body {
     gap: 63px;
     margin-bottom: 65px;
   }
+  .dot__offer {
+    width: 22px;
+    height: 22px;
+  }
   .footer {
     height: 71px;
   }

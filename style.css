@@ -98,6 +98,7 @@ body {
 }
 .link {
   text-decoration: none;
+  color: var(--text-secondary);
 }
 .link:visited {
   color: var(--text-secondary);

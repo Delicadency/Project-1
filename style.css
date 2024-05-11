@@ -188,7 +188,7 @@ body {
 .footer .container .paragraph {
   margin: 15px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .container {
     width: 960px;
   }

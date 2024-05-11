@@ -244,6 +244,8 @@ body {
   }
   .heading__offer {
     display: block;
+    align-self: flex-start;
+    font-size: 36px;
   }
   .flex--flow {
     flex-flow: row wrap;

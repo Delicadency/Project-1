@@ -142,6 +142,10 @@ body {
 .specialist__portrait--photo-y {
   background-image: url(Images/portrait-y.jpeg);
 }
+.span {
+  display: block;
+  margin-bottom: 30px;
+}
 .section__offer {
   background-color: var(--primary);
 }
@@ -220,7 +224,7 @@ body {
   .specialist {
     flex-wrap: nowrap;
   }
-  .specialist .paragraph {
+  .paragraph__specialist {
     width: 750px;
     padding: 30px;
   }

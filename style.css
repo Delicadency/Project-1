@@ -156,13 +156,14 @@ body {
   align-self: center;
 }
 .box__offer {
-  width: 339px;
-  height: 331px;
+  width: 75%;
+  aspect-ratio: 1/1;
   padding: 15px;
   position: relative;
   background-color: var(--background);
 }
 .container__offer {
+  width: 100%;
   gap: 45px;
   margin: 45px;
 }
@@ -189,8 +190,10 @@ body {
   color: var(--text-secondary);
   margin: 15px 9px;
 }
-.margin {
+.paragraph__footer {
   margin: 15px;
+  align-self: center;
+  justify-self: center;
 }
 @media (min-width: 1024px) {
   .container {
@@ -267,7 +270,7 @@ body {
   .footer .flex--center {
     justify-content: space-between;
   }
-  .margin {
+  .paragraph__footer {
     margin: 25px;
   }
   .icon {

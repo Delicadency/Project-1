@@ -254,7 +254,7 @@ body {
     height: 194px;
     gap: 64px;
   }
-  .box__offer:hover{
+  .box__offer:hover {
     transform: scale(1.05);
   }
   .heading__offer {

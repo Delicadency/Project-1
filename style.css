@@ -168,6 +168,7 @@ body {
   padding: 15px;
   position: relative;
   background-color: var(--background);
+  transition: transform 0.5s ease;
 }
 .container__offer {
   width: 100%;
@@ -252,6 +253,9 @@ body {
     width: 198px;
     height: 194px;
     gap: 64px;
+  }
+  .box__offer:hover{
+    transform: scale(1.05);
   }
   .heading__offer {
     display: block;
